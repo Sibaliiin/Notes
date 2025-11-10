@@ -10,3 +10,6 @@ A továbbiakban, ha egy kvadratikus maradékról beszélünk, akkor feltesszük,
 2. $a^{\frac{p-1}{2}}\equiv$ 
 3. Pontosan $\frac{p-1}{2}$ kvadratikus maradék illetve nemmaradék van $\textrm{ (mod p)}$.
 Az állítás könnyen adódik a $k$-adik hatványmaradékokra vonatkozó tétel speciális eseteként. A teljesség kedvéért rövid bizonyítást adunk.
+
+## Kongruenciák megoldása
+#### Feladat
