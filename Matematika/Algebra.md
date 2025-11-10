@@ -17,3 +17,4 @@ Az állítás könnyen adódik a $k$-adik hatványmaradékokra vonatkozó tétel
 ## Gauss-egészek
 
 ## Ideálok
+test
