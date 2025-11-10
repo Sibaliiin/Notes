@@ -13,3 +13,7 @@ Az állítás könnyen adódik a $k$-adik hatványmaradékokra vonatkozó tétel
 
 ## Kongruenciák megoldása
 #### Feladat
+
+## Gauss-egészek
+
+## Ideálok
