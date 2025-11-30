@@ -51,5 +51,10 @@ int binary_search(int arr[], int n, int target);
 ```
 ### Number of elements in the list
 The size of the array will be described by the given integer:
-$$\text{int n = sizeof(arr[]) / sizeof(arr[0])}$$
-If we compute $n$ as the size of the array, then we would get the number of bytes stored in the array. Since an integer is stored in 4 bytes, the size of an array with 5 elements would be $5 \cdot 4 = 20$. So, we have to divide by the number of bytes that describe one of our elements. Since all of our elements are integers, we can divide by the size of the first element, which gives us the correct number of elements in the array.
+```c
+int n = sizeof(arr) / sizeof(arr[0])
+```
+
+*But*: why do we divide with the size of the first array element?
+
+If we compute $n$ as the *size of the array*, then we would get the number of *bytes* stored in the array. Since an integer is stored in 4 bytes, the size of an array with 5 elements would be *$5 \cdot 4 = 20$*. So, we have to *divide* by the *number of bytes that describe one of our elements.* Since all of our elements are integers, we can divide by the size of the first element, which gives us the correct number of elements in the array.
